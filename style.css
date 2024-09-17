@@ -1,0 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.grid > div {
+    grid-row: var(--r);
+    grid-column: var(--c);
+}
+
+.grid img {
+    max-height: 210px;
+}
